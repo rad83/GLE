@@ -88,6 +88,7 @@ void GLEPolish::initTokenizer() {
 	lang->addLanguageElem(0, "<=");
 	lang->addLanguageElem(0, ">=");
 	lang->addLanguageElem(0, "<>");
+	lang->addLanguageElem(0, "**");
 	// -- additions for shortcut operators (also see pass.cpp)
 	lang->addLanguageElem(0, "+=");
 	lang->addLanguageElem(0, "-=");
